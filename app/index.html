@@ -1,0 +1,83 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Coffee Shop</title>
+    <meta name="description" content="Awesome coffee that everyone likes.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster|Holtwood+One+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body  ng-app="coffeeHouseApp">
+      <h1>The Coffee House - <a href="#/">Home</a> | <a href="#/about">about</a> | <a href="#/nothing">nowhere</a></h1>
+
+
+      <div class="view" ng-view></div>
+
+
+
+      <footer>
+        <h1>The Coffee House</h1>
+        <div class="address">
+          <p>
+            The Coffee House<br>
+            Address Line 1<br>
+            Cityname, ST 33333
+          </p>
+        </div>
+        <div class="contact">
+          <p>
+            Contact Information<br>
+            Phone: 808.888.8888<br>
+            <a href="#">Email Us</a>
+          </p>
+        </div>
+        <div class="info">
+          <p>
+            Address Line 1<br>
+            Cityname, ST 33333<br>
+            Phone: 808.888.8888<br>
+            <a href="#">Email Us</a>
+          </p>
+        </div>
+      </footer>
+
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+        <!-- build:js scripts/main.js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.2/angular.min.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="scripts/main.js"></script>
+
+        <!-- endbuild -->
+
+        <!-- build:js scripts/vendor/bootstrap.js -->
+        <script src="bower_components/bootstrap/js/affix.js"></script>
+        <script src="bower_components/bootstrap/js/alert.js"></script>
+        <script src="bower_components/bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/bootstrap/js/modal.js"></script>
+        <script src="bower_components/bootstrap/js/transition.js"></script>
+        <script src="bower_components/bootstrap/js/button.js"></script>
+        <script src="bower_components/bootstrap/js/popover.js"></script>
+        <script src="bower_components/bootstrap/js/carousel.js"></script>
+        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/bootstrap/js/collapse.js"></script>
+        <script src="bower_components/bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

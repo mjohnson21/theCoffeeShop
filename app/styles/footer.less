@@ -1,0 +1,55 @@
+@media (min-width: 0) {
+	footer {
+		// height: 130px;
+		background: #070304;
+		border-top: 1px solid rgba(255,255,255,.2);
+
+		h1 {
+			font-size: 40px;
+			text-align: left;
+			display: inline;
+			float: left;
+			padding-left: 115px;
+			padding-top: 16px;
+		}
+
+		div {
+			display: inline;
+			float: right;
+			font-size: 11px;
+		}
+		.address {
+			display: none;
+		}
+		.contact {
+			display: none;
+		}
+	}
+}
+
+// ≥ 768px
+@media (min-width: @screen-sm-min) {
+	footer {
+		div {
+			float: right;
+		}
+	}
+}
+
+// ≥ 992px
+@media (min-width: @screen-md-min) {
+	footer {
+		div {
+			margin: 40px 75px;
+		}
+		.address {
+			display: block;
+		}
+		.contact {
+			display: block;
+		}
+		.info {
+			display: none;
+		}
+	}
+}

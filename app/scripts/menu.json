@@ -1,0 +1,17 @@
+{
+	"items": [
+		{
+			"drink": "Coffee",
+			"description": "Locally-roasted organic beans",
+			"priceSmall": "1.95",
+			"priceMed": "2.25",
+			"priceLarge": "2.40",
+		},
+		{
+			"drink": "Cafe Au Lait",
+			"priceSmall": "1.95",
+			"priceMed": "2.25",
+			"priceLarge": "2.40",
+		}
+	]
+}

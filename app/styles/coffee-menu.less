@@ -1,0 +1,37 @@
+@media (min-width: 0) {
+	.coffee {
+		// background: red;
+	}
+	.promos {
+		// background: pink;
+
+		img {
+			width: 48%;
+			box-sizing: border-box;
+			border: 8px solid rgba(230,223,215,.5);
+			margin: 0 1%;
+			float: left;
+		}
+	}
+
+}
+
+// ≥ 768px
+@media (min-width: @screen-sm-min) {
+		
+}
+
+// ≥ 992px
+@media (min-width: @screen-md-min) {
+	.promos {
+
+		img {
+			width: 100%;
+			margin-bottom: 15px;
+		}
+	}
+
+	.tea {
+		text-align: right;
+	}
+}

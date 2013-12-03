@@ -1,0 +1,22 @@
+<div class="container">
+
+	<h2>This is the About Page</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptatem, harum, earum eveniet ex ea temporibus dolor facere non debitis adipisci sapiente repellat doloribus assumenda aliquam odit excepturi soluta quae.</p>
+
+	<ul>
+		<li class="menu-item" ng-repeat="item in menu.coffee.items">
+			{{item.drink}}
+			<span>
+				<sup>$</sup>{{item.priceSmall}} |
+				<sup>$</sup>{{item.priceMed}}|
+				<sup>$</sup>{{item.priceLarge}}
+			</span>
+			<p>{{item.description}}</p>
+		</li>
+	</ul>
+
+	<pre>{{menu | json}}</pre>
+
+
+</div>
+

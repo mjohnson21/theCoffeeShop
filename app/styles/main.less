@@ -1,0 +1,44 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+@icon-font-path: "../fonts/glyphicons/";
+
+@import "../bower_components/font-awesome/less/font-awesome.less";
+@fa-font-path: "../fonts/font-awesome";
+
+@primaryColor: #e9dbd0;
+@accentColor: #bf9280;
+
+@logoFont: 		'Lobster', cursive;
+@headersFont: 	'Holtwood One SC', serif;
+@normalFont: 	Helvetica, Arial, sans-serif;
+
+@import "structure"; // body, container, wrapper
+@import "typography";
+
+@import "header";
+@import "footer";
+@import "carousel";
+@import "coffee-menu";
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+
+	li {
+		font-size: 21px;
+		margin-bottom: 20px;
+
+		span {
+			font-size: 14px;
+			color: @accentColor;
+			display: block;
+		}
+	}
+}
+
+hr {
+	border-color: @primaryColor;
+}
+
+h1 a {
+	font-size: .5em;
+}

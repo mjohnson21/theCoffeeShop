@@ -1,0 +1,46 @@
+.glyphicon {
+	font-family: ;
+}
+
+.glyphicon-chevron-left           { &:before { content: "\e079"; } }
+.glyphicon-chevron-right          { &:before { content: "\e080"; } }
+
+.carousel-inner {
+	background: #000;
+	border-top: darken(@accentColor, 20%) 1px solid;
+	border-bottom: darken(@accentColor, 20%) 1px solid;
+	box-shadow: 0 5px 20px rgba(0,0,0,.75);
+	margin-bottom: 60px;
+
+	> .item > img,
+	> .item > a > img {
+		margin: 0 auto;
+		height: 360px;
+	}
+
+	@media (min-width: @screen-sm-min) and (max-width: 899px) {
+		border-color: red;
+		height: 300px;
+
+		> .item > img,
+		> .item > a > img {
+			max-width: auto !important;
+			max-height: 100%;
+		}
+	}
+
+	@media (min-width: 600px) and (max-width: @screen-sm-min) {
+		border-color: blue;
+		height: 250px;
+
+		> .item > img,
+		> .item > a > img {
+			max-width: auto !important;
+			max-height: 100%;
+		}
+	}
+}
+
+.carousel-indicators {
+	bottom: -50px;
+}
